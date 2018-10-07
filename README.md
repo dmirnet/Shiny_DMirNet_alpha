@@ -1,11 +1,11 @@
 # Shiny_DMirNet_alpha
 Shiny-based Web application for exploring direct microRNA-mRNA associations from expression profiles that supports parallel processing on cluster of computers
 ## Getting Started
-These instructions will get you a copy of the web application up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the web application up and running on your machines for development and testing purposes.
 ### Prerequisites
 The following application must be installed to run DMirNet.
-* [R Software](https://cran.r-project.org/) 
-* The following R packages must be install to run Shiny_DMirNet. Run the following scripts to install the packages.
+* [R Software](https://cran.r-project.org/) on each machines
+* The following R packages must be install on the master machine to run Shiny_DMirNet. Run the following scripts to install the packages.
 ```R
 install.packages("shiny")
 install.packages("checkpoint")
